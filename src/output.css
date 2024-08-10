@@ -673,8 +673,14 @@ video {
   margin: 1.5rem;
 }
 
-.m-auto {
-  margin: auto;
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .mx-auto {
@@ -728,6 +734,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .me-1 {
   margin-inline-end: 0.25rem;
 }
@@ -774,6 +784,10 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .block {
@@ -1279,6 +1293,10 @@ video {
   text-align: center;
 }
 
+.font-Noto {
+  font-family: Noto Sans Khmer, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1486,8 +1504,7 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-<!--table-->
-.table-container {
+<!--table-- > .table-container {
   width: 80%;
   height: 70px;
   background-color: #eaf0f9;
@@ -1994,6 +2011,11 @@ video {
   .dark\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-blue-400 {
+    --tw-text-opacity: 1;
+    color: rgb(96 165 250 / var(--tw-text-opacity));
   }
 
   .dark\:placeholder-black::-moz-placeholder {
